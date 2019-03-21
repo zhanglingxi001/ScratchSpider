@@ -13,7 +13,7 @@ class ScratchSpider:
         self.rangeNum = rangeNum
         self.headers = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36"}
         self.start_url = "https://scratch.mit.edu/projects/{}/remixes/"
-        self.download_url = "https://cdn.projects.scratch.mit.edu/internalapi/project/{}/get/"
+        self.download_url = "https://projects.scratch.mit.edu/{}"
         self.file_path = "./sb3Files/{}_remixing"
         self.id = []
 
